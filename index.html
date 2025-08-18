@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <div class="overlay">
+    <div class="main-div">
+    <h1>Tasks to do</h1>
+    <div class="input-task">
+        <label for="task">Task:</label><br>
+        <input type="text" placeholder="input your task here" id="task"><br>
+        
+        <label for="tasker-name">Assigned to:</label><br>
+        <input type="text" id="taskername"><br>
+        <label for="start-date">Start date:</label><br>
+        <input type="datetime-local" placeholder="start" id="start-date"><br>
+
+        <label for="end-date">End Date:</label><br>
+        <input type="datetime-local" placeholder="end" id="end-date">
+        <br>
+
+        <div class="button-div">
+            <button id="add">Add task</button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="task-list">
+        <table id="myTasks">
+            <thead>
+                <caption>Task List</caption> 
+                <tr>
+                    <th>#</th>
+                    <th>Task Name</th>
+                    <th>Assigned to</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
