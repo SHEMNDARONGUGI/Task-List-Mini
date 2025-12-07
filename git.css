@@ -1,0 +1,15 @@
+.row .new {
+  height: 100px;
+  width: 100px;
+  background-color: darkblue;
+  text-align: center;
+  color: yellow;
+  margin: 10px;
+}
+.row {
+  padding: 20px;
+  margin: auto;
+  background-color: beige;
+}
+
+/*# sourceMappingURL=git.css.map */
